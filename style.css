@@ -1,0 +1,73 @@
+h1 {
+    text-align: center;
+    font-size: 78px;
+}
+
+.tenis {
+    display: flex;
+    justify-content: center;
+
+}
+
+.bat img {
+    width: 200px;
+    height: 200px;
+    margin-top: 150px;
+
+
+
+
+}
+
+/* .bat img:hover {
+    position: absolute;
+    transform: rotate(35deg);
+    transform-origin: bottom left;
+} */
+
+.ball {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    top: 200px;
+    right: 150px;
+    animation: ball 1s ease-in-out 0.5s infinite alternate;
+}
+
+
+
+.table {
+    width: 900px;
+    /* background-color: red; */
+
+}
+
+@keyframes ball {
+    0% {
+        top: 200px;
+        right: 150px;
+    }
+
+    25% {
+        top: 350px;
+        right: 700px;
+    }
+
+    50% {
+        top: 150px;
+        right: 1300px;
+    }
+
+    75% {
+        top: 350px;
+        right: 1700px;
+    }
+
+    100% {
+        top: 200px;
+        right: 2300px;
+    }
+
+}
